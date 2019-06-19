@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.form {
+  margin-bottom: 1rem;
+}
+
+.fieldset {
+  border: 1px solid #ddd;
+}
+
+.legend {
+  font-weight: 700;
+  margin-left: -5px;
+  padding: 0 5px;
+}
+
+.field {
+  margin: 0.5rem 0 1rem;
+}
+
+.fieldset .field:last-child {
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.input {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  color: #444;
+  display: block;
+  height: calc(1.5em + 2 * 0.375rem + 2px);
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+}
+
+.button {
+  background-color: #4181ee;
+  border: 1px solid #4181ee;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
